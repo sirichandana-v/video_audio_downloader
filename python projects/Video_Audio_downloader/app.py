@@ -33,15 +33,8 @@ def download_a():
     
     print("Download completed")
 
-
-
-
-
-
-
-
-
-
+    
+    
 root=Tk()
 
 root.title('Video and Audio downloader')
@@ -67,9 +60,5 @@ canvas.create_window(100, 120, window=label_dest)
 canvas.create_window(250, 120, window=button_dest)
 canvas.create_window(100, 160, window=button_v)
 canvas.create_window(230, 160, window=button_a)
-
-
-
-
 
 root.mainloop()
